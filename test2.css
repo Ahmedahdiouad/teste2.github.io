@@ -1,0 +1,65 @@
+/* Customize styles here */
+
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #333;
+    border: none;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.page-heading {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.tall-section {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 1000px;
+}
+
+/* Center text and headings */
+.text-center {
+    text-align: center;
+}
+
+/* Additional styles for mobile menu */
+@media (max-width: 767px) {
+    .navbar-toggle {
+        background-color: #333;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-collapse.collapse.in {
+        background-color: #333;
+        padding-top: 70px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .nav.navbar-nav.navbar-right {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .nav.navbar-nav.navbar-right li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .nav.navbar-nav.navbar-right li a {
+        color: #fff;
+    }
+}
